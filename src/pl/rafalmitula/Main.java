@@ -32,7 +32,10 @@ public class Main {
                 switch (userChoice) {
                     case 1 -> metody.calculateNetto();
                     case 2 -> metody.calculateBrutto();
-                    case 3 -> shouldContinue = false;
+                    case 3 -> {
+                        shouldContinue = false;
+                        System.out.println("Dziękujęmy za skorzystanie z naszego programu.");
+                    }
                     default -> System.out.println("Niepoprawny wybór!\nWybierz liczbę od 1 do 3.");
                 }
 
