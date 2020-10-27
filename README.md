@@ -43,6 +43,6 @@ The **calculateBrutto()** method runs when user chooses **case 2** in **switch(u
 
 ## Inspiration
 
-The **while** loop with **boolean shouldContinue** and **swithch(userChoice)** is inspired by YouTube channel „Jak nauczyć się programowania” - video „Java- podstawy w 2h”. (https://www.youtube.com/watch?v=6G19kFcVXTo)
+The **while** loop with the **boolean shouldContinue** and the **swithch(userChoice)** is inspired by the YouTube channel „Jak nauczyć się programowania” - video „Java- podstawy w 2h”. (https://www.youtube.com/watch?v=6G19kFcVXTo)
 
 
