@@ -1,4 +1,4 @@
-#tax-calculation-program 
+# tax calculation program 
 
 ## Table of contents
 * [General info](#general-info)
