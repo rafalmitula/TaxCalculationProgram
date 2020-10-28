@@ -26,7 +26,7 @@ All mentioned options are located in **switch(userChoice)**. The **userChoice** 
 
 The **switch(userChoice)** is also in **try/catch** block to catch the exception if user inputs invalid data (becuase the default protects only from incorrect number input). If the user inputs the incorrect data he will receive a message and  he will have a chance to do this again by **scanner.next();**.
 
-The**boolean shouldContinue** serves to continue the **while(shouldContinue)** loop and to terminates the application when user will choose 
+The **boolean shouldContinue** serves to continue the **while(shouldContinue)** loop and to terminates the application when user will choose 
 **case 3** in **switch** ->  **shouldContinue=false;**.
 
 Above the **while** loop aside from mentioned **Scanner scanner** and  **boolean shouldContinue** there is also **Methods metody**.
@@ -39,7 +39,7 @@ In  this application in **class Methods{}** there are two methods: **calculateNe
 
 The **calculateNetto()** method runs when user chooses **case 1** in **switch(userChoice)** in **main(String[] args)** method.  In this method **Scanner scnNetto** scans input data from the user, calculate and display: the net amount – **double amountCn**, the tax amount- **double amountVatCn**, the gross amount - **double amountBruttoCn**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places. The whole **calculateNetto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the** catch** block there is a message for the user and **calculateNetto()** method, so when he inputs wrong number or data, he will have opportunity to enter the data again.
 
-The **calculateBrutto()** method runs when user chooses **case 2** in **switch(userChoice)** in **main(String[] args)** method.  In this method **Scanner scnBrutto** scans input data from the user, calculate and display: the net amount – **double amountCb**, the tax amount- **double amountVatCb**, the gross amount - **double amountBruttoCb**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places. The whole **calculateBrutto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the**catch** block there is a message for the user and calculateBrutto() method, so when he inputs wrong number or data, he will have opportunity to enter the data again.
+The **calculateBrutto()** method runs when user chooses **case 2** in **switch(userChoice)** in **main(String[] args)** method.  In this method **Scanner scnBrutto** scans input data from the user, calculate and display: the net amount – **double amountCb**, the tax amount- **double amountVatCb**, the gross amount - **double amountBruttoCb**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places. The whole **calculateBrutto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and calculateBrutto() method, so when he inputs wrong number or data, he will have opportunity to enter the data again.
 
 ## Inspiration
 
