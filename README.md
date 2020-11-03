@@ -58,15 +58,15 @@ The **calculateNetto()** method runs when user chooses **case 1** in **switch(us
 
 In this method **Scanner scnNetto** scans input data from the user, calculate and display: the net amount – **double amountCn**, the tax amount- **double amountVatCn**, the gross amount - **double amountBruttoCn**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places.
 
-![calculateNetto](./img/calculatenetto1 .png)
+![calculateNetto](./img/calculatenetto1.png)
 
 The whole **calculateNetto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculateNetto()** method, so when he inputs wrong number or data, he will have opportunity to enter the data again.
 
-![calculateNetto-try/catch](./img/Calculatenetto1-trycatch.png)
+![calculateNetto-try/catch](./img/Calculatenetto1-try-catch.png)
 
 The **calculateBrutto()** method runs when user chooses **case 2** in **switch(userChoice)** in **main(String[] args)** method.  
 
-![calculateBrutto in switch](./img/metody.CalculateBrutto.png)
+![calculateBrutto in switch](./img/metody.calculateBrutto.png)
 
 In this method **Scanner scnBrutto** scans input data from the user, calculate and display: the net amount – **double amountCb**, the tax amount- **double amountVatCb**, the gross amount - **double amountBruttoCb**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places.
 
