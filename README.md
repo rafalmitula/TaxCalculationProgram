@@ -72,12 +72,12 @@ In this method **Scanner scnBrutto** scans input data from the user, calculate a
 
 ![calculateBrutto](./img/calculateBrutto-1.png)
 
-The whole **calculateBrutto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and calculateBrutto() method, so when he inputs wrong number or data, he will have opportunity to enter the data again.
+The whole **calculateBrutto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculateBrutto()** method, so when he inputs wrong number or data, he will have opportunity to enter the data again.
 
 ![calculateBrutto-try/catch](./img/CalculateBrutto1-try-catch.png)
 
 ## Inspiration
 
-The **while** loop with the **boolean shouldContinue** and the **swithch(userChoice)** is inspired by the YouTube channel „Jak nauczyć się programowania” - video „Java- podstawy w 2h”. (https://www.youtube.com/watch?v=6G19kFcVXTo)
+The **while** loop with the **boolean shouldContinue** and the **swithch(userChoice)** is inspired by the YouTube channel „Jak nauczyć się programowania” - video „Java- podstawy w 2h”. (https://www.youtube.com/watch?v=6G19kFcVXTo).
 
 
