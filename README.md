@@ -58,7 +58,7 @@ The **calculateNetto()** method runs when user chooses **case 1** in **switch(us
 
 In this method **Scanner scnNetto** scans input data from the user, calculate and display: the net amount – **double amountCn**, the tax amount- **double amountVatCn**, the gross amount - **double amountBruttoCn**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places.
 
-![calculateNetto](./img/calculatenetto1 (1).png)
+![calculateNetto](./img/calculatenetto1 .png)
 
 The whole **calculateNetto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculateNetto()** method, so when he inputs wrong number or data, he will have opportunity to enter the data again.
 
