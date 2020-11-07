@@ -37,8 +37,8 @@ The **switch(userChoice)** is also in **try/catch** block to catch the exception
 The **boolean shouldContinue** serves to continue the **while(shouldContinue)** loop and to terminates the application when user will choose 
 **case 3** in **switch** ->  **shouldContinue=false;**.
 
-
-![while&boolean](./img/while-edit.png)
+![boolean](./img/boolean-edit.png)
+![while](./img/while-edit.png)
 
 
 
@@ -62,11 +62,11 @@ In this method **Scanner scnNetto** scans input data from the user, calculate an
 
 The whole **calculateNetto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculateNetto()** method, so when he inputs wrong number or data, he will have opportunity to enter the data again.
 
-![calculateNetto-try/catch](./img/Calculatenetto-trycatch-edit.png)
+![calculateNetto-try/catch](./img/calculateNetto-trycatch-edit.png)
 
 The **calculateBrutto()** method runs when user chooses **case 2** in **switch(userChoice)** in **main(String[] args)** method.  
 
-![calculateBrutto in switch](./img/metody.calculateBrutto.png)
+![calculateBrutto in switch](./img/metody.calculateBrutto-edit.png)
 
 In this method **Scanner scnBrutto** scans input data from the user, calculate and display: the net amount – **double amountCb**, the tax amount- **double amountVatCb**, the gross amount - **double amountBruttoCb**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places.
 
