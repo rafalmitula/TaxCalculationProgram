@@ -24,10 +24,10 @@ public class Main {
             System.out.println("3. Wyjdź");
             System.out.println("--------------");
 
-            int userChoice = 0;
+
             try {
 
-                userChoice = scanner.nextInt();
+                int userChoice = scanner.nextInt();
 
                 switch (userChoice) {
                     case 1 -> metody.calculateNetto();
@@ -44,7 +44,6 @@ public class Main {
                 scanner.next();
 
             }
-
         }
 
     }

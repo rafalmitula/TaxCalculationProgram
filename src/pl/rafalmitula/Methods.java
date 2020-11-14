@@ -6,7 +6,8 @@ public class Methods {
 
 
     public void calculateNetto() {
-        System.out.println("Podaj kwotę netto od jakiej chcesz obliczyć 23% VAT." + "\nW przypadku części dziesiętnych oddziel je przecinkiem.");
+        System.out.println("Podaj kwotę netto od jakiej chcesz obliczyć 23% VAT." +
+                "\nW przypadku części dziesiętnych oddziel je przecinkiem.");
 
 
         try {
@@ -28,7 +29,8 @@ public class Methods {
     }
 
     public void calculateBrutto() {
-        System.out.println("Podaj kwotę brutto od jakiej chcesz obliczyć 23% VAT." + "\nW przypadku części dziesiętnych oddziel je przecinkiem.");
+        System.out.println("Podaj kwotę brutto od jakiej chcesz obliczyć 23% VAT." +
+                "\nW przypadku części dziesiętnych oddziel je przecinkiem.");
 
         try {
             Scanner scnBrutto = new Scanner(System.in);
