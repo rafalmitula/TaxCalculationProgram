@@ -28,12 +28,12 @@ At the beginning when the program runs, user receives a welcome message. User is
 
 In this porgram the person who wants to calculate the tax can choose 3 options using the **switch(userChoice)** function: 
 * **case 1->**	Calculate the 23% tax from the net price.
-* **case 2->**	Calculate the the 23% tax from the gross price.
+* **case 2->**	Calculate the 23% tax from the gross price.
 * **case 3->**	Terminate the program.
 
-The **switch(userChoice)** has a default option to protect from the user’s invalid number input. If user inputs the wrong number, he wiil receive a message and he will have an opprtunity to do this again by **scanner.nextInt();**.
+The **switch(userChoice)** has a **default** option to protect from the user’s invalid number input. If user inputs the wrong number, he wiil receive a message and he will have an opprtunity to do this again by **scanner.nextInt();**.
 
-The **switch(userChoice)** is also in try/catch block to catch the exception if user inputs invalid data (becuase the default protects only from incorrect number input). If the user inputs the incorrect data he will receive a message and  he will have a chance to do this again by **scanner.next()**;.
+The **switch(userChoice)** is also in try/catch block to catch the exception if user inputs invalid data (becuase the **default** option protects only from incorrect number input). If the user inputs the incorrect data he will receive a message and  he will have a chance to do this again by **scanner.next()**;.
 
 This porgram is also located in **while(shouldContinue)** loop to provide the constant running.
 
