@@ -18,7 +18,7 @@ This is a console application which calculates the amount of 23% tax. User can c
 * Java 13
 
 ## Setup 
-This a console apllication, however it should be started on at least JDK 12 after cloning project to IDE.
+This is a console apllication, however it should be started on at least JDK 12 after cloning project to IDE.
 
 ## Description 
 ### class Main{}
