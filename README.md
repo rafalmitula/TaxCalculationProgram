@@ -24,46 +24,49 @@ This a console apllication, however it should be started on at least JDK 12 afte
 ### class Main{}
 
 At the beginning when the program runs, user receives a welcome message. User is also asked to choose options from 1 to 3. 
-**Scanner scanner** scans the input data from the user. Next the variable **int userChoice** retrieves the number. The **switch(userChoice)** depends on the mentioned **int userChoice** number entered by the user. 
+**Scanner scanner** reads the input data from the user. Next the variable **int userChoice** retrieves the number. The **switch(userChoice)** depends on the mentioned **int userChoice** number entered by the user. 
 
 In this porgram the person who wants to calculate the tax can choose 3 options using the **switch(userChoice)** function: 
 * **case 1->**	Calculate the 23% tax from the net price.
 * **case 2->**	Calculate the 23% tax from the gross price.
 * **case 3->**	Terminate the program.
 
-The **switch(userChoice)** has a **default** option to protect from the user’s invalid number input. If user inputs the wrong number, he wiil receive a message and he will have an opprtunity to do this again by **scanner.nextInt();**.
+The **switch(userChoice)** has a **default** option to protect from the user’s invalid number input. If user inputs the wrong number, he/she wiil receive a message and he/she will have an opprtunity to do this again by the **scanner.nextInt();**.
 
-The **switch(userChoice)** is also in try/catch block to catch the exception if user inputs invalid data (becuase the **default** option protects only from the incorrect number input). If the user inputs the incorrect data he will receive a message and  he will have a chance to do this again by **scanner.next()**;.
+The **switch(userChoice)** is also in try/catch block to catch the exception if user inputs invalid data (becuase the **default** option protects only from the incorrect number input). If the user inputs the incorrect data he will receive a message and he/she will have a chance to do this again by the **scanner.next()**;.
 
-This porgram is also located in **while(shouldContinue)** loop to provide the constant running.
+This porgram is also located in the **while(shouldContinue)** loop to provide the constant running.
 
 The **boolean shouldContinue** serves to continue the **while(shouldContinue)** loop and to terminates the application when user will choose the **case 3** in the **switch(userChoice)**.
 
 Above the loop aside from the mentioned **Scanner scanner** and the  **boolean shouldContinu**e  there is also the **Methods metody** .
 
-The **Methods metody** run new methods, which are located in the **Methods class**.
+The **Methods metody** run new methods, which are located in the **Methods{} class**.
 
 
 ### class Methods{}
 
-In  this application in **class Methods{}** there are two methods: **calculateNetto()** and **calculateBrutto()**.
+In  this application in **Methods{} class** there are two methods: **calculateNetto()** and **calculateBrutto()**.
 
-The **calculateNetto()** method runs when user chooses **case 1** in **switch(userChoice)** in **main(String[] args)** method.  
+* **calculateNetto()**
+
+The **calculateNetto()** method runs when user chooses the **case 1** in the **switch(userChoice)** in the **main(String[] args)** method.  
 
 
-In this method **Scanner scnNetto** scans input data from the user, calculate and display: the net amount – **double amountCn**, the tax amount- **double amountVatCn**, the gross amount - **double amountBruttoCn**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places.
+In this method **Scanner scnNetto** scans an input data from the user, calculate and display: the net amount – **double amountCn**, the tax amount- **double amountVatCn**, the gross amount - **double amountBruttoCn**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places.
 
 
-The whole **calculateNetto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculateNetto()** method, so when he inputs wrong number or data, he will have opportunity to enter the data again.
+The whole **calculateNetto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and the **calculateNetto()** method, so when he inputs wrong number or data, he/she will have opportunity to enter the data again.
 
+* **calculateBrutto()**
 
 The **calculateBrutto()** method runs when user chooses **case 2** in **switch(userChoice)** in **main(String[] args)** method.  
 
 
-In this method **Scanner scnBrutto** scans input data from the user, calculate and display: the net amount – **double amountCb**, the tax amount- **double amountVatCb**, the gross amount - **double amountBruttoCb**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places.
+In this method **Scanner scnBrutto** scans an input data from the user, calculate and display: the net amount – **double amountCb**, the tax amount- **double amountVatCb**, the gross amount - **double amountBruttoCb**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places.
 
 
-The whole **calculateBrutto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and **calculateBrutto()** method, so when he inputs wrong number or data, he will have opportunity to enter the data again.
+The whole **calculateBrutto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and the **calculateBrutto()** method, so when he inputs wrong number or data, he will have opportunity to enter the data again.
 
 
 ## Inspiration
