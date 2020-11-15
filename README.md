@@ -56,7 +56,7 @@ The **calculateNetto()** method runs when user chooses the **case 1** in the **s
 In this method **Scanner scnNetto** scans an input data from the user, calculate and display: the net amount – **double amountCn**, the tax amount- **double amountVatCn**, the gross amount - **double amountBruttoCn**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places.
 
 
-The whole **calculateNetto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and the **calculateNetto()** method, so when he inputs wrong number or data, he/she will have opportunity to enter the data again.
+The whole **calculateNetto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and the **calculateNetto()** method, so when he inputs wrong number or data, he/she will have opportunity to enter the amount again.
 
 * **calculateBrutto()**
 
@@ -66,7 +66,7 @@ The **calculateBrutto()** method runs when user chooses **case 2** in **switch(u
 In this method **Scanner scnBrutto** scans an input data from the user, calculate and display: the net amount – **double amountCb**, the tax amount- **double amountVatCb**, the gross amount - **double amountBruttoCb**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places.
 
 
-The whole **calculateBrutto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and the **calculateBrutto()** method, so when he inputs wrong number or data, he will have opportunity to enter the data again.
+The whole **calculateBrutto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and the **calculateBrutto()** method, so when he inputs wrong number or data, he/she will have opportunity to enter the amount again.
 
 
 ## Inspiration
