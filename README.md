@@ -33,11 +33,11 @@ In this porgram the person who wants to calculate the tax can choose 3 options u
 
 The **switch(userChoice)** has a **default** option to protect from the user’s invalid number input. If user inputs the wrong number, he/she wiil receive a message and he/she will have an opprtunity to do this again by the **scanner.nextInt();**.
 
-The **switch(userChoice)** is also in try/catch block to catch the exception if user inputs invalid data (becuase the **default** option protects only from the incorrect number input). If the user inputs the incorrect data he will receive a message and he/she will have a chance to do this again by the **scanner.next()**;.
+The **switch(userChoice)** is also in **try/catch** block to catch the exception if user inputs invalid data (becuase the **default** option protects only from the incorrect number input). If the user inputs the incorrect data he/she will receive a message and he/she will have a chance to do this again by the **scanner.next()**;.
 
 This porgram is also located in the **while(shouldContinue)** loop to provide the constant running.
 
-The **boolean shouldContinue** serves to continue the **while(shouldContinue)** loop and to terminates the application when user will choose the **case 3** in the **switch(userChoice)**.
+The **boolean shouldContinue** serves to continuing the **while(shouldContinue)** loop and to terminating the application when user will choose the **case 3** in the **switch(userChoice)**.
 
 Above the loop aside from the mentioned **Scanner scanner** and the  **boolean shouldContinu**e  there is also the **Methods metody** .
 
