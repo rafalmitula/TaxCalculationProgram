@@ -39,7 +39,7 @@ public class Main {
                 }
 
             } catch (InputMismatchException e) {
-                System.out.println("Wprowadzono niepoprawne dane!!\nSpróbuj jeszcze raz.");
+                System.out.println("Wprowadzono niepoprawne dane!\nSpróbuj jeszcze raz.");
                 scanner.next();
 
             }
