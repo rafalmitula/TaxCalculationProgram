@@ -47,7 +47,7 @@ public class Methods {
 
         } catch (Exception e) {
 
-            System.out.println("Wprowadzone dane są niepoprawne!\nSpróbuj jeszcze raz.");
+            System.out.println("Wprowadzone dane są niepoprawne!!\nSpróbuj jeszcze raz.");
             System.out.println();
             calculateGross();
         }
