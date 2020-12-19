@@ -23,6 +23,8 @@ This is a console apllication, however it should be started on at least JDK 12 a
 ## Description 
 ### class Main{}
 
+In the **Main class{}** , above the **main(String[] args)** method are located three project's arguments: the **Scanner scanner**, boolean **shoukdContinue** and the **Methods methods**. All mentioned arguments have a private modifier due to the encapsulation. Moreover these arguments have also a static modifier due to possibility of using them in this class. 
+
 At the beginning when the program runs, user receives a welcome message. User is also asked to choose options from 1 to 3. 
 **Scanner scanner** reads the input data from the user. Next the variable **int userChoice** retrieves the number. The **switch(userChoice)** depends on the mentioned **int userChoice** number entered by the user. 
 
@@ -30,6 +32,10 @@ In this porgram the person who wants to calculate the tax can choose 3 options u
 * **case 1->**	Calculate the 23% tax from the net price.
 * **case 2->**	Calculate the 23% tax from the gross price.
 * **case 3->**	Terminate the program.
+
+The calculations in the **case 1** and int the **case 2** are performed by functions located in the **Methods class**. These operations are possible due to the mentioned encapsulation. The **Methods metody** run methods, which are located in the **Methods{} class**.
+
+The **case 3** is performed by **boolean shouldContinue**. Implicitly this variable is encapsulated and setted for **true**, so changing it to **false**, terminates the program.
 
 The **switch(userChoice)** has a **default** option to protect from the user’s invalid number input. If user inputs the wrong number, he/she wiil receive a message and he/she will have an opprtunity to do this again by the **scanner.nextInt();**.
 
@@ -48,25 +54,25 @@ The **Methods metody** run new methods, which are located in the **Methods{} cla
 
 In  this application in **Methods{} class** there are two methods: **calculateNetto()** and **calculateBrutto()**.
 
-* **calculateNetto()**
+* **calculateNet()**
 
-The **calculateNetto()** method runs when user chooses the **case 1** in the **switch(userChoice)** in the **main(String[] args)** method.  
-
-
-In this method **Scanner scnNetto** scans an input data from the user, calculate and display: the net amount – **double amountCn**, the tax amount- **double amountVatCn**, the gross amount - **double amountBruttoCn**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places.
+The **calculateNet()** method runs when user chooses the **case 1** in the **switch(userChoice)** in the **main(String[] args)** method.  
 
 
-The whole **calculateNetto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and the **calculateNetto()** method, so when he inputs wrong number or data, he/she will have opportunity to enter the amount again.
-
-* **calculateBrutto()**
-
-The **calculateBrutto()** method runs when user chooses **case 2** in **switch(userChoice)** in **main(String[] args)** method.  
+In this method **Scanner scnNet** scans an input data from the user, calculate and display: the net amount – **double amountCn**, the tax amount- **double amountVatCn**, the gross amount - **double amountGrossCn**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountGrossCn**) are rounded to 2 decimal places.
 
 
-In this method **Scanner scnBrutto** scans an input data from the user, calculate and display: the net amount – **double amountCb**, the tax amount- **double amountVatCb**, the gross amount - **double amountBruttoCb**. What is more, in this method the mentioned doubles (**amountCn**, **amountVatCn**, **amountBruttoCn**) are rounded to 2 decimal places.
+The whole **calculateNet()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and the **calculateNet()** method, so when he inputs wrong number or data, he/she will have opportunity to enter the amount again.
+
+* **calculateGross()**
+
+The **calculateGross()** method runs when user chooses **case 2** in **switch(userChoice)** in **main(String[] args)** method.  
 
 
-The whole **calculateBrutto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and the **calculateBrutto()** method, so when he inputs wrong number or data, he/she will have opportunity to enter the amount again.
+In this method **Scanner scnBrutto** scans an input data from the user, calculate and display: the net amount – **double amountCg**, the tax amount- **double amountVatCg**, the gross amount - **double amountBruttoCb**. What is more, in this method the mentioned doubles (**amountCg**, **amountVatCg**, **amountGrossCg**) are rounded to 2 decimal places.
+
+
+The whole **calculateBrutto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and the **calculateGross()** method, so when he inputs wrong number or data, he/she will have opportunity to enter the amount again.
 
 
 ## Inspiration
