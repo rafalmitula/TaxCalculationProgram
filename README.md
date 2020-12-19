@@ -23,7 +23,7 @@ This is a console apllication, however it should be started on at least JDK 12 a
 ## Description 
 ### class Main{}
 
-In the **Main class{}** , above the **main(String[] args)** method are located three project's arguments: the **Scanner scanner**, boolean **shoukdContinue** and the **Methods methods**. All mentioned arguments have a private modifier due to the encapsulation. Moreover these arguments have also a static modifier due to possibility of using them in this class. 
+In the **Main class{}**, above the **main(String[] args)** method are located three project's arguments: the **Scanner scanner**, **boolean shouldContinue** and the **Methods methods**. All mentioned arguments have a private modifier due to the encapsulation. Moreover these arguments have also a static modifier due to possibility of using them in this class. 
 
 At the beginning when the program runs, user receives a welcome message. User is also asked to choose options from 1 to 3. 
 **Scanner scanner** reads the input data from the user. Next the variable **int userChoice** retrieves the number. The **switch(userChoice)** depends on the mentioned **int userChoice** number entered by the user. 
@@ -37,7 +37,7 @@ The calculations in the **case 1** and int the **case 2** are performed by funct
 
 The **case 3** is performed by **boolean shouldContinue**. Implicitly this variable is encapsulated and setted for **true**, so changing it to **false**, terminates the program.
 
-The **switch(userChoice)** has a **default** option to protect from the user’s invalid number input. If user inputs the wrong number, he/she wiil receive a message and he/she will have an opprtunity to do this again by the **scanner.nextInt();**.
+The **switch(userChoice)** has a **default** option to protect from the user’s invalid number input. If user inputs the wrong number, he/she will receive a message and he/she will have an opprtunity to do this again by the **scanner.nextInt();**.
 
 The **switch(userChoice)** is also in **try/catch** block to catch the exception if user inputs invalid data (becuase the **default** option protects only from the incorrect number input). If the user inputs the incorrect data he/she will receive a message and he/she will have a chance to do this again by the **scanner.next()**;.
 
@@ -72,7 +72,7 @@ The **calculateGross()** method runs when user chooses **case 2** in **switch(us
 In this method **Scanner scnBrutto** scans an input data from the user, calculate and display: the net amount – **double amountCg**, the tax amount- **double amountVatCg**, the gross amount - **double amountBruttoCb**. What is more, in this method the mentioned doubles (**amountCg**, **amountVatCg**, **amountGrossCg**) are rounded to 2 decimal places.
 
 
-The whole **calculateBrutto()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and the **calculateGross()** method, so when he inputs wrong number or data, he/she will have opportunity to enter the amount again.
+The whole **calculateGross()** method is in the **try/catch** block to protect from the user’s input mistakes (inputting data or wrong numbers). In the **catch** block there is a message for the user and the **calculateGross()** method, so when he inputs wrong number or data, he/she will have opportunity to enter the amount again.
 
 
 ## Inspiration
