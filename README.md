@@ -33,7 +33,7 @@ In this porgram the person who wants to calculate the tax can choose 3 options u
 * **case 2->**	Calculate the 23% tax from the gross price.
 * **case 3->**	Terminate the program.
 
-The calculations in the **case 1** and int the **case 2** are performed by functions located in the **Methods class**. These operations are possible due to the mentioned encapsulation. The **Methods metody** run methods, which are located in the **Methods{} class**.
+The calculations in the **case 1** and in the **case 2** are performed by functions located in the **Methods class**. These operations are possible due to the mentioned encapsulation. The **Methods metody** run methods, which are located in the **Methods{} class**.
 
 The **case 3** is performed by **boolean shouldContinue**. Implicitly this variable is encapsulated and setted for **true**, so changing it to **false**, terminates the program.
 
@@ -47,12 +47,10 @@ The **boolean shouldContinue** serves to continuing the **while(shouldContinue)*
 
 Above the loop aside from the mentioned **Scanner scanner** and the  **boolean shouldContinu**e  there is also the **Methods metody** .
 
-The **Methods metody** run new methods, which are located in the **Methods{} class**.
-
 
 ### class Methods{}
 
-In  this application in **Methods{} class** there are two methods: **calculateNetto()** and **calculateBrutto()**.
+In  this application in **Methods{} class** there are two methods: **calculateNet()** and **calculateGross()**.
 
 * **calculateNet()**
 
